@@ -1,0 +1,167 @@
+{
+  "selectedTemplate": 4,
+  "headings": {
+    "education": "Education",
+    "work": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Roles and Responsibilities"
+  },
+  "basics": {
+    "name": "Usama Hamid",
+    "email": "usamahamid007@gmail.com",
+    "phone": "+91 94880 46537",
+    "website": "",
+    "location": {
+      "address": "Coimbatore, India"
+    }
+  },
+  "education": [
+    {
+      "institution": "Jamal mohamed college, Bharathidasan University",
+      "location": "Tiruchirappalli, India",
+      "studyType": "M.C.A",
+      "endDate": "May 2013",
+      "area": "Computer Application",
+      "gpa": "8.1",
+      "startDate": "Jun 2010"
+    },
+    {
+      "institution": "Jamal mohamed college, Bharathidasan University",
+      "location": "Tiruchirappalli, India",
+      "studyType": "B.Sc",
+      "area": "Computer Science",
+      "gpa": "7.9",
+      "startDate": "Jun 2007",
+      "endDate": "May 2010"
+    },
+    {
+      "institution": "Arafa english school",
+      "location": "Trichur, India",
+      "studyType": "High School",
+      "gpa": "66.6%",
+      "startDate": "May 2005",
+      "endDate": "Apr 2007"
+    }
+  ],
+  "work": [
+    {
+      "company": "Impiger Technologies",
+      "location": "Coimbatore, India",
+      "position": "Senior Engineer",
+      "website": "https://www.impigertech.com/",
+      "startDate": "Sep 2013",
+      "endDate": "Present",
+      "highlights": [
+        "Recognized as one of the top talents",
+        "Took up additional leadership responsibilities, and successfully completed them",
+        "Impressed and Landed KWE as a contracted client, with timely and smooth execution of initial projects",
+        "Exploration into multiple domains - Mobile, Backend, Full-Stack, Machine Learning, Dev Ops..."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages ",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Python",
+        "JS",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "PL/SQL",
+        "Mongo",
+        "SQLite",
+        "MySQL",
+        "Realm",
+        "Solr"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "Android Native",
+        "Spring",
+        "Hibernate",
+        "JSF",
+        "Angular 4",
+        "React JS",
+        "Django"
+      ],
+      "name": "Frameworks"
+    },
+    {
+      "keywords": [
+        "Git",
+        "SVN",
+        "Gradle",
+        "Maven",
+        "Docker",
+        "Intellij Idea",
+        "Android Studio"
+      ],
+      "name": "Tools"
+    }
+  ],
+  "projects": [
+    {
+      "name": "KWE Unified Document System",
+      "keywords": [
+        "Spring",
+        "JSF",
+        "Hibernate",
+        "MongoDB",
+        "PL/SQL",
+        "Solr DB"
+      ],
+      "description": "Feature and API development in Document Management foundation system utilized by numerous systems, with strict coding guidelines and standards",
+      "url": "https://www.kwe.co.jp/en/"
+    },
+    {
+      "keywords": [
+        "Android",
+        "Volley ",
+        "Realm DB"
+      ],
+      "name": "ImPower BI - Impiger",
+      "description": "Highly modular and reusable enterprise library, which is to be utilized to create several Business Intelligence and Analytics applications. Generates exhaustive list of charts and reports from literally any data.",
+      "url": "https://www.impigertech.com/business-intelligence-dashboards/"
+    },
+    {
+      "keywords": [
+        "Android",
+        "Ant",
+        "Espresso"
+      ],
+      "name": "Office Suite Application",
+      "description": "Feature development and fixes in an Highly popular Android Office suite application. The name of the application can’t be disclosed due to NDA"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Development Lead",
+      "date": "Jan 2018",
+      "summary": "Took up the charge in Project Development, and Lead a small team to complete the project in a very tight deadline.",
+      "awarder": "KWE Unified Document System"
+    },
+    {
+      "title": "Senior Developer",
+      "awarder": "Multiple Projects",
+      "summary": "Recognized for quick and smooth completion of multiple projects, both as team and as a lone developer."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}

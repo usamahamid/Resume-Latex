@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \documentclass[]{deedy-resume-openfont}
+
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Profile
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Usama}{Hamid}{usamahamid007@gmail.com | +91 94880 46537 | Coimbatore, India}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Education
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\raggedright
+
+\runsubsection{Jamal mohamed college, Bharathidasan University}\descript{| M.C.A Computer Application}\hfill \location{Tiruchirappalli, India | Jun 2010 - May 2013}\\
+GPA: 8.1\\
+\sectionsep
+  
+
+\runsubsection{Jamal mohamed college, Bharathidasan University}\descript{| B.Sc Computer Science}\hfill \location{Tiruchirappalli, India | Jun 2007 - May 2010}\\
+GPA: 7.9\\
+\sectionsep
+  
+
+\runsubsection{Arafa english school}\descript{| High School}\hfill \location{Trichur, India | May 2005 - Apr 2007}\\
+GPA: 66.6\%\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Experience
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+\runsubsection{Impiger Technologies}\descript{| Senior Engineer}\hfill \location{Coimbatore, India | Sep 2013 – Present}
+\begin{tightemize}
+	\item Recognized as one of the top talents
+	\item Took up additional leadership responsibilities, and successfully completed them
+	\item Impressed and Landed KWE as a contracted client, with timely and smooth execution of initial projects
+	\item Exploration into multiple domains - Mobile, Backend, Full-Stack, Machine Learning, Dev Ops...
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\raggedright
+\begin{tabular}{ l l }
+	\descript{Languages}  & {\location{Java, Python, JS, HTML, CSS}}                                         \\
+	\descript{Databases}  & {\location{PL/SQL, Mongo, SQLite, MySQL, Realm, Solr}}                           \\
+	\descript{Frameworks} & {\location{Android Native, Spring, Hibernate, JSF, Angular 4, React JS, Django}} \\
+	\descript{Tools}      & {\location{Git, SVN, Gradle, Maven, Docker, Intellij Idea, Android Studio}}      \\
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Projects
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\raggedright
+
+\runsubsection{\large{KWE Unified Document System}}
+\descript{| Spring, JSF, Hibernate, MongoDB, PL/SQL, Solr DB}\hfill \location{https://www.kwe.co.jp/en/}\\
+Feature and API development in Document Management foundation system utilized by numerous systems, with strict coding guidelines and standards\\
+\sectionsep
+  
+
+\runsubsection{\large{ImPower BI - Impiger}}
+\descript{| Android, Volley, Realm DB}\hfill \location{https://www.impigertech.com/business-intelligence-dashboards/}\\
+Highly modular and reusable enterprise library, which is to be utilized to create several Business Intelligence and Analytics applications. Generates exhaustive list of charts and reports from literally any data.\\
+\sectionsep
+  
+
+\runsubsection{\large{Office Suite Application}}
+\descript{| Android, Ant, Espresso}\\
+Feature development and fixes in an Highly popular Android Office suite application. The name of the application can’t be disclosed due to NDA\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Awards
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Roles and Responsibilities}
+\runsubsection{\large{Development Lead}} \descript{KWE Unified Document System | Jan 2018} \\
+Took up the charge in Project Development, and Lead a small team to complete the project in a very tight deadline.\\
+\sectionsep
+\runsubsection{\large{Senior Developer}} \descript{Multiple Projects} \\
+Recognized for quick and smooth completion of multiple projects, both as team and as a lone developer.\\
+\sectionsep
+\ 
+\end{document}
