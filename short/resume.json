@@ -62,14 +62,17 @@
   ],
   "skills": [
     {
-      "name": "Languages ",
+      "name": "Languages",
       "level": "",
       "keywords": [
         "Java",
         "Python",
         "JS",
         "HTML",
-        "CSS"
+        "CSS",
+        "Objective C",
+        "JSON",
+        "XML"
       ]
     },
     {
@@ -86,12 +89,21 @@
     {
       "keywords": [
         "Android Native",
+        "J2EE",
         "Spring",
+        "Spring Boot",
+        "Spring Data JPA",
         "Hibernate",
         "JSF",
+        "JSP",
+        "Servlets",
+        "Angular JS",
         "Angular 4",
         "React JS",
-        "Django"
+        "Django",
+        "Node JS",
+        "Express JS",
+        "JQuery"
       ],
       "name": "Frameworks"
     },
@@ -100,13 +112,44 @@
         "Git",
         "SVN",
         "Gradle",
+        "Ant",
         "Maven",
         "Docker",
-        "Intellij Idea",
-        "Android Studio"
+        "Putty",
+        "WinSCP"
       ],
       "name": "Tools"
+    },
+    {
+      "keywords": [
+        "Intellij Idea",
+        "Android Studio",
+        "Eclipse",
+        "Net Beans",
+        "Visual studio code"
+      ],
+      "name": "IDEs"
+    },
+    {
+      "keywords": [
+        "Apache Tomcat",
+        "Jetty",
+        "WebLogic"
+      ],
+      "name": "Servers"
+    },
+    {
+      "keywords": [
+        "REST Web services",
+        "SOAP Web services",
+        "Amazon Web Services",
+        "Microservice architecture",
+        "Agile methodology",
+        "Kanban methodology"
+      ],
+      "name": "Misc"
     }
+
   ],
   "projects": [
     {
@@ -120,6 +163,7 @@
         "Solr DB"
       ],
       "description": "Feature and API development in Document Management foundation system utilized by numerous systems, with strict coding guidelines and standards",
+      "highlights": "Sample highlights",
       "url": "https://www.kwe.co.jp/en/"
     },
     {
